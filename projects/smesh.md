@@ -11,6 +11,12 @@ This has been pretty awesome to work on because sensors that are used commercial
 
 On the firmware side I built embedded drivers for real-time clock (RTC) logging, LoRa radio, and wind sensors (anemometer and vane) so nodes stay time-synchronized and stay reliable on constrained power budgets.
 
-I also contribute towards the electrical for the project and have helped with the wiring/so forth for our wind sensors
+<div class="project-inline-video project-inline-video--smesh">
+  <video autoplay muted loop playsinline controls>
+    <source src="{{ '/images/wind-sensor.mp4' | relative_url }}" type="video/mp4" />
+  </video>
+</div>
+
+I also contribute towards the electrical for the project and have helped with the wiring/so forth for our wind sensors. Above is a fully assembled wind sensor that I personally built. Excuse the wires we are actively making our first PCB based on this design ;) The idea is to get these sensors in the hands of researchers/burn bosses.
 
 We have deployed at multiple controlled burn sites so far and I'm looking forward to more :-)

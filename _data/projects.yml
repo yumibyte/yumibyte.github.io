@@ -3,8 +3,7 @@
 - slug: ospree
   title: Ocean profilers (Stanford S4 Lab)
   summary: Embedded firmware for ocean profiler research; LoRa demo showcasing sensors — accepted to ACM MobiSys 2026.
-  cover:
-  loop_video: "/images/ospree-demo.mp4"
+  cover: "/images/ospree-front-page.jpg"
   youtube:
   gallery: []
   skills:
@@ -17,7 +16,6 @@
   title: SMesh — wildfire mesh sensing (Stanford Radio Club)
   summary: Low-cost off-grid mesh networks for controlled-burn sensing — RTC, LoRa, and wind instrumentation drivers.
   cover: "/images/team-photo-smesh.JPG"
-  loop_video: "/images/wind-sensor.mp4"
   youtube:
   gallery: []
   skills:

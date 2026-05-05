@@ -168,8 +168,10 @@
   }
 }
 
-.project-showcase__loop-video {
-  margin: 0 0 1.75rem;
+/* Inline HTML5 videos inside project markdown */
+.project-inline-video {
+  margin: 1.25rem auto 1.75rem;
+  max-width: min(720px, 100%);
   border-radius: 12px;
   overflow: hidden;
   background: #111;
@@ -178,6 +180,27 @@
     width: 100%;
     height: auto;
     display: block;
+  }
+}
+
+.project-inline-video--smesh {
+  max-width: min(480px, 94%);
+}
+
+.project-body-figure {
+  margin: 1.75rem 0;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
   }
 }
 

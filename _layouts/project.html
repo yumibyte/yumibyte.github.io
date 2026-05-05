@@ -10,14 +10,6 @@ layout: default
   </figure>
   {% endif %}
 
-  {% if meta.loop_video %}
-  <div class="project-showcase__loop-video">
-    <video autoplay muted loop playsinline controls>
-      <source src="{{ meta.loop_video | relative_url }}" type="video/mp4" />
-    </video>
-  </div>
-  {% endif %}
-
   {% if meta.youtube %}
   <div class="project-showcase__video">
     <iframe

@@ -8,6 +8,6 @@ hobbies: In my free time I like to snowboard, swing dance, and rock climb.
 
 intro_footer: Below you will find my work experience and a list of projects I have done for research, classes, clubs, or simply out of personal interest.
 
-# Profile image: use a file in /images/ (e.g. /images/profile.jpg) or an absolute URL
-profile_photo: "https://avatars.githubusercontent.com/u/33210992?v=4"
+# Profile image (file under /images/)
+profile_photo: "/images/profile-picture.jpg"
 profile_photo_alt: Ashley Raigosa

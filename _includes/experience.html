@@ -3,7 +3,7 @@
   <section class="work-card">
     {% if job.logo.src %}
     <div class="work-card__logo">
-      <img src="{{ job.logo.src | relative_url }}" alt="{{ job.logo.alt | default: job.company }}" width="72" height="72" loading="lazy" />
+      <img src="{{ job.logo.src | relative_url }}" alt="{{ job.logo.alt | default: job.company }}" width="120" height="120" loading="lazy" />
     </div>
     {% endif %}
     <div class="work-card__body">

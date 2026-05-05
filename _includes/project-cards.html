@@ -2,11 +2,7 @@
 {% for p in site.data.projects %}
   <a class="project-card" href="{{ site.baseurl }}/projects/{{ p.slug }}/">
     <div class="project-card__media">
-      {% if p.cover_video %}
-        <video autoplay muted loop playsinline preload="metadata">
-          <source src="{{ p.cover_video | relative_url }}" type="video/mp4" />
-        </video>
-      {% elsif p.cover %}
+      {% if p.cover %}
         <img src="{{ p.cover | relative_url }}" alt="" loading="lazy" />
       {% elsif p.youtube %}
         <img src="https://i.ytimg.com/vi/{{ p.youtube }}/hqdefault.jpg" alt="" loading="lazy" />

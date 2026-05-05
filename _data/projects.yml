@@ -27,7 +27,7 @@
 - slug: flyer-project
   title: Flyer Project
   summary: Boards Team Lead for EE285 flyers, focusing on PCB bring-up for motor and light control, test planning, and design fixes after validation.
-  cover:
+  cover: "/images/flyer-pcb.png"
   cover_video: "/images/tailboard-working.mp4"
   youtube:
   gallery: []

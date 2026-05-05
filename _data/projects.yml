@@ -64,9 +64,9 @@
     - Board bring-up
     - Radio comms
 
-- slug: board-bring-up
-  title: Board Bring-Up
-  summary: Satellite test boards — paste, place, BOM, KiCad, bake, test, and summer workshops.
+- slug: sapling-cubesat
+  title: Sapling the CubeSat
+  summary: SSI Sapling 1U CubeSat — flight board bring-up, Transporter-7, and bring-up workshops.
   cover: "/images/board-bring-up.jpg"
   youtube:
   gallery: []

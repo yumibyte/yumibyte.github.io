@@ -168,6 +168,19 @@
   }
 }
 
+.project-showcase__loop-video {
+  margin: 0 0 1.75rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #111;
+
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 .project-showcase__video {
   position: relative;
   width: 100%;

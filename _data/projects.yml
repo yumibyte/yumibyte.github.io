@@ -15,7 +15,8 @@
 - slug: smesh
   title: SMesh — wildfire mesh sensing (Stanford Radio Club)
   summary: Low-cost off-grid mesh networks for controlled-burn sensing — RTC, LoRa, and wind instrumentation drivers.
-  cover:
+  cover: "/images/team-photo-smesh.JPG"
+  loop_video: "/images/wind-sensor.mp4"
   youtube:
   gallery: []
   skills:

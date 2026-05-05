@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Home
+title: Welcome to my e-portfolio 
 permalink: /
 ---
-
-# Welcome to my e portfolio
 
 {% include profile-photo.html %}
 

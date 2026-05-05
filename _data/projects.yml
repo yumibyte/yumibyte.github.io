@@ -2,7 +2,7 @@
 
 - slug: ospree
   title: Ocean profilers (Stanford S4 Lab)
-  summary: Embedded firmware for ocean profiler research; LoRa demo showcasing sensors — accepted to ACM MobiSys 2026.
+  summary: Embedded firmware for ocean profiler research; LoRa demo showcasing sensors; accepted to ACM MobiSys 2026.
   cover: "/images/ospree-front-page.jpg"
   youtube:
   gallery: []
@@ -14,7 +14,7 @@
 
 - slug: smesh
   title: SMesh — wildfire mesh sensing (Stanford Radio Club)
-  summary: Low-cost off-grid mesh networks for controlled-burn sensing — RTC, LoRa, and wind instrumentation drivers.
+  summary: Low-cost off-grid mesh networks for controlled-burn sensing with RTC, LoRa, and wind instrumentation drivers.
   cover: "/images/team-photo-smesh.JPG"
   youtube:
   gallery: []
@@ -23,6 +23,14 @@
     - Embedded C/C++
     - RTC logging
     - Anemometer / wind vane
+
+- slug: flyer-project
+  title: Flyer Project
+  summary: Boards Team Lead for EE285 flyers, focusing on PCB bring-up for motor and light control, test planning, and design fixes after validation.
+  cover:
+  cover_video: "/images/tailboard-working.mp4"
+  youtube:
+  gallery: []
 
 - slug: startracker
   title: Startracker Research and HITL Simulations (Space Rendezvous Laboratory)
@@ -38,16 +46,9 @@
     - Linux/Unix
     - GNC
 
-- slug: flyer-project
-  title: Flyer Project
-  summary: More soon.
-  cover: "/images/flyer-pcb.png"
-  youtube: _OdXHm3N0_A
-  gallery: []
-
 - slug: sand-plotter
   title: Embedded C Sand Plotter
-  summary: Magnet marble sand table + Mango Pi control — plus a from-scratch RISC-V OS in CS107E.
+  summary: Magnet marble sand table with Mango Pi control plus a from-scratch RISC-V OS in CS107E.
   cover:
   youtube: zCOZYP-fheo
   gallery: []
@@ -73,7 +74,7 @@
 
 - slug: sapling-cubesat
   title: Sapling the CubeSat
-  summary: SSI Sapling 1U CubeSat — flight board bring-up, Transporter-7, and bring-up workshops.
+  summary: SSI Sapling 1U CubeSat with flight board bring-up, Transporter-7, and bring-up workshops.
   cover: "/images/board-bring-up.jpg"
   youtube:
   gallery: []
@@ -85,7 +86,7 @@
 
 - slug: l1-rocket
   title: L1 Rocket Launch
-  summary: High-power L1 with SSI — OpenRocket sims, launch day, clean recovery.
+  summary: High-power L1 with SSI including OpenRocket sims, launch day, and clean recovery.
   cover: "/images/l1-rockets.jpg"
   youtube:
   gallery: []

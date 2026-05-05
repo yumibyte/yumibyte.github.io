@@ -1,0 +1,11 @@
+{% assign alt = site.data.bio.profile_photo_alt | default: site.author.name %}
+{% assign src = site.data.bio.profile_photo %}
+{% if src %}
+<figure class="profile-photo">
+  {% if src contains "://" %}
+  <img src="{{ src }}" alt="{{ alt }}" width="280" height="280" loading="lazy" decoding="async" />
+  {% else %}
+  <img src="{{ src | relative_url }}" alt="{{ alt }}" width="280" height="280" loading="lazy" decoding="async" />
+  {% endif %}
+</figure>
+{% endif %}

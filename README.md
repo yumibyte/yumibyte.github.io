@@ -10,8 +10,9 @@ Personal site (Jekyll + Minima) for GitHub Pages.
 | Work experience | [`_data/experience.yml`](_data/experience.yml) |
 | Project cards on `/projects/` | [`_data/projects.yml`](_data/projects.yml) |
 | Long-form project write-ups | [`projects/*.md`](projects/) |
+| Photos, employer logos | [`images/`](images/) — reference paths like `/images/board-bring-up.jpg` in YAML |
 
-After changing `_data/projects.yml`, add a matching file under `projects/<slug>.md` with `permalink: /projects/<slug>/`.
+After changing `_data/projects.yml`, keep `projects/<slug>.md` in sync (`layout: project`, `slug`, `permalink`). YouTube embeds use the video ID only (`youtube: Bm60_T5iMrI`).
 
 ## Publish
 

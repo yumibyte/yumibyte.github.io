@@ -6,6 +6,8 @@ permalink: /
 
 # Welcome to Ashley Raigosa's e-portfolio
 
+{% include profile-photo.html %}
+
 ## Who am I?
 
 {% include bio.html %}

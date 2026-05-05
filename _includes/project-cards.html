@@ -1,0 +1,19 @@
+<div class="project-grid">
+{% for p in site.data.projects %}
+  <a class="project-card" href="{{ site.baseurl }}/projects/{{ p.slug }}/">
+    <div class="project-card__media">
+      {% if p.cover %}
+        <img src="{{ p.cover | relative_url }}" alt="" loading="lazy" />
+      {% elsif p.youtube %}
+        <img src="https://i.ytimg.com/vi/{{ p.youtube }}/hqdefault.jpg" alt="" loading="lazy" />
+      {% else %}
+        <div class="project-card__placeholder" aria-hidden="true"></div>
+      {% endif %}
+    </div>
+    <div class="project-card__body">
+      <h2 class="project-card__title">{{ p.title }}</h2>
+      <p class="project-card__summary">{{ p.summary }}</p>
+    </div>
+  </a>
+{% endfor %}
+</div>

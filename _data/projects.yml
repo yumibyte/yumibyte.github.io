@@ -1,24 +1,77 @@
-# Index metadata + permalink slug for each project page (content lives in projects/<slug>.md)
+# Media paths are files in /images/ at repo root. YouTube fields are embed IDs only.
+# Startracker — https://www.youtube.com/watch?v=Bm60_T5iMrI
+# Sand plotter — https://www.youtube.com/watch?v=zCOZYP-fheo
+
 - slug: startracker
   title: Startracker Research and HITL Simulations (Space Rendezvous Laboratory)
-  summary: Research on star tracking on Raspberry Pi and HITL optical stimulator simulations.
+  summary: Raspberry Pi star tracking in low SWaP, then optical stimulator HITL runs with the SLAB team.
+  cover:
+  youtube: Bm60_T5iMrI
+  gallery: []
+  skills:
+    - MATLAB
+    - Python
+    - 3D printing
+    - Raspberry Pi
+    - Linux/Unix
+    - GNC
 
 - slug: sand-plotter
   title: Embedded C Sand Plotter
-  summary: CS107E sand plotter with magnet marble, Mango Pi, and a from-scratch RISC-V OS.
+  summary: Magnet marble sand table + Mango Pi control — plus a from-scratch RISC-V OS in CS107E.
+  cover:
+  youtube: zCOZYP-fheo
+  gallery: []
+  skills:
+    - Embedded C
+    - Breadboards
+    - Logic analyzer
+    - Circuits
+    - Mango Pi
+    - Unix/Vim
 
 - slug: featherwing-radio
   title: Featherwing Radio Modules
-  summary: SSI Satellites lead — Feather M4 radio workshops for ASSURE at Berkeley and Irvington HS.
+  summary: Feather M4 radio workshops for ASSURE at Berkeley, Irvington HS, and new SSI members.
+  cover: "/images/featherwing-radio-modules.jpg"
+  youtube:
+  gallery: []
+  skills:
+    - CircuitPython
+    - Soldering
+    - Board bring-up
+    - Radio comms
 
 - slug: board-bring-up
   title: Board Bring-Up
-  summary: Custom satellite testing boards — paste, place, BOM, KiCad, bake, test, and workshops.
+  summary: Satellite test boards — paste, place, BOM, KiCad, bake, test, and summer workshops.
+  cover: "/images/board-bring-up.jpg"
+  youtube:
+  gallery: []
+  skills:
+    - Board bring-up
+    - Soldering / hot air
+    - Scope / DMM
+    - KiCad
 
 - slug: pick-and-place
   title: Pick and Place Machine Assembly
-  summary: LitePlacer build for SSI Satellites — wiring, limit switches, harnesses, structure.
+  summary: LitePlacer build with SSI Satellites — wiring limit switches, harnesses, and structure.
+  cover: "/images/pick-and-place.jpg"
+  youtube:
+  gallery: []
+  skills:
+    - Soldering
+    - Schematics
+    - Structural assembly
 
 - slug: l1-rocket
   title: L1 Rocket Launch
-  summary: High-power rocket with Stanford Space Initiative — simulation, launch, recovery.
+  summary: High-power L1 with SSI — OpenRocket sims, launch day, clean recovery.
+  cover: "/images/l1-rockets.jpg"
+  youtube:
+  gallery: []
+  skills:
+    - OpenRocket
+    - Structural assembly
+    - Epoxy / drilling

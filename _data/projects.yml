@@ -1,9 +1,10 @@
 # Media paths are files in /images/ at repo root. YouTube fields are embed IDs only.
 
-- slug: ocean-profiling
+- slug: ospree
   title: Ocean profilers (Stanford S4 Lab)
   summary: Embedded firmware for ocean profiler research; LoRa demo showcasing sensors — accepted to ACM MobiSys 2026.
   cover:
+  loop_video: "/images/ospree-demo.mp4"
   youtube:
   gallery: []
   skills:

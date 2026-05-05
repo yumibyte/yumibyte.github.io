@@ -1,8 +1,8 @@
 ---
 layout: project
-slug: ocean-profiling
+slug: ospree
 title: Ocean profilers (Stanford S4 Lab)
-permalink: /projects/ocean-profiling/
+permalink: /projects/ospree/
 ---
 
 At the **Stanford Smart Sensing Systems (S4) Lab** (Winter 2026 onward), I work on embedded firmware for our **ocean profilers** research line — improving how sensing stacks run in the field.

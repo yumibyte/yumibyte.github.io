@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to my e-portfolio 
+title: Home
 permalink: /
 ---
 

@@ -1,6 +1,6 @@
 title: Ashley Raigosa
 description: Computer Science at Stanford — e-portfolio, work experience, and projects.
-url: "https://ashleyraigosa.com"
+url: "https://yumibyte.github.io"
 baseurl: ""
 
 # Minima 2.5 footer expects `author` as a string and `email` at top level.
@@ -11,7 +11,7 @@ linkedin_username: ashleyraigosa
 
 # Homepage contact strip (see _includes/contact-strip.html)
 contact:
-  website_url: "https://ashleyraigosa.com"
+  website_url: "https://www.ashleyraigosa.com"
   website_label: "ashleyraigosa.com"
 
 theme: minima

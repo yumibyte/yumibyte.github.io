@@ -9,11 +9,6 @@ email: raigosa@stanford.edu
 
 linkedin_username: ashleyraigosa
 
-# Homepage contact strip (see _includes/contact-strip.html)
-contact:
-  website_url: "https://www.ashleyraigosa.com"
-  website_label: "ashleyraigosa.com"
-
 theme: minima
 
 plugins:

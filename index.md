@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-# Welcome to my e-portfolio
+# Welcome to my e portfolio
 
 {% include profile-photo.html %}
 

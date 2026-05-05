@@ -1,6 +1,8 @@
 {% assign b = site.data.bio %}
 
+{% if b.tagline %}
 <p class="lead home-tagline">{{ b.tagline }}</p>
+{% endif %}
 
 {% if b.degrees %}
 <ul class="degree-list">

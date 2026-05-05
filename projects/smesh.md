@@ -5,7 +5,7 @@ title: SMesh — wildfire mesh sensing (Stanford Radio Club)
 permalink: /projects/smesh/
 ---
 
-As SMesh team lead for Stanford Radio Club (Spring 2025 onward), I help deploy and validate low-cost, off-grid mesh networks for wildfire sensing using LoRa, including work during local controlled burns.
+As SMesh team lead for Stanford Radio Club (Spring 2025 onward), I help deploy and validate low-cost, off-grid mesh networks for wildfire sensing using LoRa. We have tested our sensors at a handful of local controlled burns.
 
 This has been pretty awesome to work on because sensors that are used commercially mainly:
 

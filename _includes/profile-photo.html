@@ -1,4 +1,4 @@
-{% assign alt = site.data.bio.profile_photo_alt | default: site.author.name %}
+{% assign alt = site.data.bio.profile_photo_alt | default: site.author | default: site.title %}
 {% assign src = site.data.bio.profile_photo %}
 {% if src %}
 <figure class="profile-photo">

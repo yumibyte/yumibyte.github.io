@@ -16,3 +16,7 @@ permalink: /
 
 - [Work experience]({% link work.md %})
 - [Projects]({% link projects/index.md %})
+
+## Contact
+
+{% include contact-strip.html %}

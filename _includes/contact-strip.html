@@ -1,0 +1,15 @@
+{% assign c = site.contact %}
+<nav class="contact-strip" aria-label="Contact">
+  {% if site.email %}
+  <a class="contact-strip__link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  {% endif %}
+  {% if c.website_url %}
+  <a class="contact-strip__link" href="{{ c.website_url }}" target="_blank" rel="noopener noreferrer">{{ c.website_label | default: c.website_url }}</a>
+  {% endif %}
+  {% if site.linkedin_username %}
+  <a class="contact-strip__link" href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  {% endif %}
+  {% if site.github_username %}
+  <a class="contact-strip__link" href="https://github.com/{{ site.github_username | cgi_escape }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+  {% endif %}
+</nav>

@@ -11,12 +11,12 @@ I built a demo system that highlights sensor capability over low-power LoRa so w
 
 The demo works like this:
 
-1. We slowly pump salt water via a peristaltic pump to the bottom of the tank.
-2. We heat the top up with a "lizard lamp."
-3. We reel the profiler slowly through the water column, taking measurements as we go.
-4. The profiler streams the data to my laptop over LoRa.
+1. We slowly pump salt water via a peristaltic pump to the bottom of the tank
+2. We heat the top up with a "lizard lamp"
+3. We reel the profiler slowly through the water column, taking measurements as we go
+4. The profiler streams the data to my laptop over LoRa
 
-So we've essentially created a fake ocean in this tube to demonstrate that we observe changes in pressure/temperature/salinity from our sensor.
+So we've essentially created a fake ocean in this tube to demonstrate that we observe changes in pressure/temperature/salinity from our sensor. This is because the bottom of the tank will be saltier and the top will be warmer (as expected in the ocean).
 
 For this I set up:
 

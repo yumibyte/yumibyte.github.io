@@ -9,9 +9,9 @@ As SMesh team lead for Stanford Radio Club (Spring 2025 onward), I help deploy a
 
 This has been pretty awesome to work on because sensors that are used commercially mainly:
 
-1. Drain a bunch of power (think: they are plugged into wall outlets).
-2. Use WiFi (and don't work otherwise).
-3. Are super expensive.
+1. Drain a bunch of power (think: they are plugged into wall outlets)
+2. Use WiFi (and don't work otherwise)
+3. Are super expensive
 
 So we're essentially trying to tackle all three of these problems to make a smoke sensor that burn bosses can carry out to the field and easily deploy (without needing special installment, like most smoke sensors).
 

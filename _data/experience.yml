@@ -1,5 +1,23 @@
+- company: Cosmic Frontier Labs
+  role: Software Engineering Intern · Oakland, CA · Spring 2026 – Present
+  logo:
+    src: "/images/cosmic-frontier.jpg"
+    alt: Cosmic Frontier Labs
+  bullets:
+    - Developing embedded software systems for next-generation space telescope instrumentation
+
+- company: Blue Origin
+  role: Software Test Avionics Intern · Seattle, WA · Summer 2025
+  logo:
+    src: "/images/blue-origin.png"
+    alt: Blue Origin
+  bullets:
+    - Developed a common on-target unit testing framework for engine programs running on a RISC MCU in a freestanding environment, enabling previously unavailable unit testing and saving 2,500 engineering hours
+    - Deployed test orchestration pipeline to support on-target unit testing and integrated code into engines’ builds
+    - Resolved integration issues with embedded tools (e.g., JLink, GDB) and guided developers in tool usage
+
 - company: Vast Space
-  role: Ground Station Software Intern
+  role: Ground Station Software Intern · Long Beach, CA · Summer 2024
   logo:
     src: "/images/vast.png"
     alt: Vast
@@ -8,8 +26,8 @@
     - Diagnosed and resolved microservice outages, implemented custom feature requests, and managed AWS and Kubernetes permissions, ensuring stable production environments
     - Coordinated team code via GitHub, delivering a UI and API solution to clients through CI/CD
 
-- company: NASA Ames
-  role: Deep Learning Intern
+- company: NASA Ames Research Center
+  role: Deep Learning Intern — Kepler/TESS transit classification · Virtual · Fall 2023 – Spring 2024
   logo:
     src: "/images/nasa.jpg"
     alt: NASA
@@ -17,22 +35,11 @@
     - Analyzed TESS light curve and ephemeris data through NASA’s Science Processing Operations Center (SPOC) Pipeline via the High-End Computing cluster, preparing training data for identifying exoplanets
     - Designed a new pipeline for interpreting XML data to analyze approximately 500,000 new records for exoplanets
 
-- company: Space Rendezvous Laboratory
-  role: Research Student
+- company: Stanford Space Rendezvous Laboratory
+  role: Researcher · Stanford, CA · Summer 2023
   logo:
     src: "/images/slab.png"
     alt: Stanford SLAB
   bullets:
     - Implemented lunar rendezvous simulations with ARTMS, a software payload for NASA’s Starling mission
     - Enhanced angle-based navigation in diverse swarm configurations through sensor fusion, reducing average error for relative mean longitude by 450 meters and achieving clock error stabilization within 6 minutes
-
-- company: Intel
-  role: Software and Advanced Technology Intern
-  logo:
-    src: "/images/intel.png"
-    alt: Intel
-  bullets:
-    - Leveraged AI (ID matching, fuzzy string matching, and ML models) against a data mart with 2+ million records to recommend values for key missing attributes needed to complete gaps in a data supply chain
-    - Identified 85% of missing assets at 0.72 seconds/record, offloading these tasks to be performed automatically
-    - Presented findings to senior management and site manager before publishing code to Intel’s GitHub
-    - Coached students on ML with OpenVINO for traffic flow optimization and presented as a panelist

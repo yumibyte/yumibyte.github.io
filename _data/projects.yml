@@ -1,6 +1,28 @@
 # Media paths are files in /images/ at repo root. YouTube fields are embed IDs only.
-# Startracker — https://www.youtube.com/watch?v=Bm60_T5iMrI
-# Sand plotter — https://www.youtube.com/watch?v=zCOZYP-fheo
+
+- slug: ocean-profiling
+  title: Ocean profilers (Stanford S4 Lab)
+  summary: Embedded firmware for ocean profiler research; LoRa demo showcasing sensors — accepted to ACM MobiSys 2026.
+  cover:
+  youtube:
+  gallery: []
+  skills:
+    - Embedded firmware
+    - LoRa
+    - Low-power wireless
+    - Sensor demos
+
+- slug: smesh
+  title: SMesh — wildfire mesh sensing (Stanford Radio Club)
+  summary: Low-cost off-grid mesh networks for controlled-burn sensing — RTC, LoRa, and wind instrumentation drivers.
+  cover:
+  youtube:
+  gallery: []
+  skills:
+    - LoRa
+    - Embedded C/C++
+    - RTC logging
+    - Anemometer / wind vane
 
 - slug: startracker
   title: Startracker Research and HITL Simulations (Space Rendezvous Laboratory)

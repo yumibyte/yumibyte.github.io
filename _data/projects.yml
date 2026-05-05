@@ -38,6 +38,13 @@
     - Linux/Unix
     - GNC
 
+- slug: flyer-project
+  title: Flyer Project
+  summary: More soon.
+  cover: "/images/flyer-pcb.png"
+  youtube: _OdXHm3N0_A
+  gallery: []
+
 - slug: sand-plotter
   title: Embedded C Sand Plotter
   summary: Magnet marble sand table + Mango Pi control — plus a from-scratch RISC-V OS in CS107E.

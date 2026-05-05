@@ -7,7 +7,7 @@ permalink: /projects/sapling-cubesat/
 
 <figure class="project-body-figure">
   <img src="{{ '/images/sapling-transporter7.jpg' | relative_url }}" alt="Transporter-7 night launch — long exposure of ascent" loading="lazy" />
-  <figcaption>Transporter-7 launch (long exposure I took at Vandenburg with our satellite taking off on Transporter-7).</figcaption>
+  <figcaption>Long exposure I took at Vandenburg with our satellite taking off on Transporter-7.</figcaption>
 </figure>
 
 For the Stanford Space Initiative (SSI), I helped bring up custom testing boards for our satellite. That included pasting the board, hand-placing components, managing a BOM, interfacing with KiCad, baking the board, and conducting tests on the finished board.

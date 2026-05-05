@@ -9,15 +9,20 @@ At the Stanford Smart Sensing Systems (S4) Lab (Winter 2026 onward), I work on e
 
 I built a demo system that highlights sensor capability over low-power LoRa so we can show what the platform does without a full deployment. This demo was accepted to ACM MobiSys 2026 (yahoo!), a leading conference in mobile and wireless systems.
 
-The demo works as so: 
-1) We slowly pump salt water via a peristaltic pump to the bottom of the tank
-2) We heat the top up with a "lizard lamp."
+The demo works like this:
+
+1. We slowly pump salt water via a peristaltic pump to the bottom of the tank.
+2. We heat the top up with a "lizard lamp."
+3. We reel the profiler slowly through the water column, taking measurements as we go.
+4. The profiler streams the data to my laptop over LoRa.
+
 So we've essentially created a fake ocean in this tube to demonstrate that we observe changes in pressure/temperature/salinity from our sensor.
 
-For this I setup:
-- Talk over LoRa from the profiler in the tank to my laptop 
-- The drivers require to interface with the motors, the peristaltic pump, and the buttons
-- The dashboard to display live data received
+For this I set up:
+
+- Talk over LoRa from the profiler in the tank to my laptop
+- Drivers to interface with the motors, the peristaltic pump, and the buttons
+- A dashboard to display live data received
 
 Some fun things that I realized in this process:
 - Lots of small things about wiring up protoboards cleanly

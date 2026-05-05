@@ -1,0 +1,31 @@
+title: Ashley Raigosa
+description: Computer Science at Stanford — e-portfolio, work experience, and projects.
+url: "https://yumibyte.github.io"
+baseurl: ""
+
+author:
+  name: Ashley Raigosa
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+github_username: yumibyte
+
+# Only these pages appear in the Minima header (not each project page).
+header_pages:
+  - index.md
+  - work.md
+  - projects/index.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

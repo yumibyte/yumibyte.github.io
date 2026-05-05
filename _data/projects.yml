@@ -1,0 +1,24 @@
+# Index metadata + permalink slug for each project page (content lives in projects/<slug>.md)
+- slug: startracker
+  title: Startracker Research and HITL Simulations (Space Rendezvous Laboratory)
+  summary: Research on star tracking on Raspberry Pi and HITL optical stimulator simulations.
+
+- slug: sand-plotter
+  title: Embedded C Sand Plotter
+  summary: CS107E sand plotter with magnet marble, Mango Pi, and a from-scratch RISC-V OS.
+
+- slug: featherwing-radio
+  title: Featherwing Radio Modules
+  summary: SSI Satellites lead — Feather M4 radio workshops for ASSURE at Berkeley and Irvington HS.
+
+- slug: board-bring-up
+  title: Board Bring-Up
+  summary: Custom satellite testing boards — paste, place, BOM, KiCad, bake, test, and workshops.
+
+- slug: pick-and-place
+  title: Pick and Place Machine Assembly
+  summary: LitePlacer build for SSI Satellites — wiring, limit switches, harnesses, structure.
+
+- slug: l1-rocket
+  title: L1 Rocket Launch
+  summary: High-power rocket with Stanford Space Initiative — simulation, launch, recovery.

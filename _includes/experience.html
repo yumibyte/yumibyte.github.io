@@ -1,0 +1,9 @@
+{% for job in site.data.experience %}
+<h2>{{ job.role }}</h2>
+<p><strong>{{ job.company }}</strong></p>
+<ul>
+  {% for bullet in job.bullets %}
+  <li>{{ bullet }}</li>
+  {% endfor %}
+</ul>
+{% endfor %}

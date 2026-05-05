@@ -1,0 +1,11 @@
+{% assign b = site.data.bio %}
+
+<p class="lead">{{ b.tagline }}</p>
+
+{% for paragraph in b.paragraphs %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<p>{{ b.hobbies }}</p>
+
+<p>{{ b.intro_footer }}</p>

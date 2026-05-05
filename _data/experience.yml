@@ -1,0 +1,26 @@
+- company: Vast Space
+  role: Ground Station Software Intern
+  bullets:
+    - Developed a scalable, low-memory file ingestion pipeline using AWS S3 and custom Go code deployed via Lambda, efficiently processing file metadata and timeseries data at 17 Mbps
+    - Diagnosed and resolved microservice outages, implemented custom feature requests, and managed AWS and Kubernetes permissions, ensuring stable production environments
+    - Coordinated team code via GitHub, delivering a UI and API solution to clients through CI/CD
+
+- company: NASA Ames
+  role: Deep Learning Intern
+  bullets:
+    - Analyzed TESS light curve and ephemeris data through NASA’s Science Processing Operations Center (SPOC) Pipeline via the High-End Computing cluster, preparing training data for identifying exoplanets
+    - Designed a new pipeline for interpreting XML data to analyze approximately 500,000 new records for exoplanets
+
+- company: Space Rendezvous Laboratory
+  role: Research Student
+  bullets:
+    - Implemented lunar rendezvous simulations with ARTMS, a software payload for NASA’s Starling mission
+    - Enhanced angle-based navigation in diverse swarm configurations through sensor fusion, reducing average error for relative mean longitude by 450 meters and achieving clock error stabilization within 6 minutes
+
+- company: Intel
+  role: Software and Advanced Technology Intern
+  bullets:
+    - Leveraged AI (ID matching, fuzzy string matching, and ML models) against a data mart with 2+ million records to recommend values for key missing attributes needed to complete gaps in a data supply chain
+    - Identified 85% of missing assets at 0.72 seconds/record, offloading these tasks to be performed automatically
+    - Presented findings to senior management and site manager before publishing code to Intel’s GitHub
+    - Coached students on ML with OpenVINO for traffic flow optimization and presented as a panelist

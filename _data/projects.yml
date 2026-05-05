@@ -83,17 +83,6 @@
     - Scope / DMM
     - KiCad
 
-- slug: pick-and-place
-  title: Pick and Place Machine Assembly
-  summary: LitePlacer build with SSI Satellites — wiring limit switches, harnesses, and structure.
-  cover: "/images/pick-and-place.jpg"
-  youtube:
-  gallery: []
-  skills:
-    - Soldering
-    - Schematics
-    - Structural assembly
-
 - slug: l1-rocket
   title: L1 Rocket Launch
   summary: High-power L1 with SSI — OpenRocket sims, launch day, clean recovery.

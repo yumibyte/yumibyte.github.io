@@ -1,6 +1,6 @@
 <div class="work-list">
 {% for job in site.data.experience %}
-  <section class="work-card">
+  <section class="work-card{% unless job.logo.src %} work-card--no-logo{% endunless %}">
     {% if job.logo.src %}
     <div class="work-card__logo">
       <img src="{{ job.logo.src | relative_url }}" alt="{{ job.logo.alt | default: job.company }}" width="300" height="300" loading="lazy" />

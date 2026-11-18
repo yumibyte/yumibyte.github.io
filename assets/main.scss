@@ -82,6 +82,10 @@
   }
 }
 
+.work-card--no-logo {
+  grid-template-columns: 1fr;
+}
+
 .work-card__logo {
   flex-shrink: 0;
 

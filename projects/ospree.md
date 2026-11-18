@@ -5,9 +5,9 @@ title: Ocean profilers (Stanford S4 Lab)
 permalink: /projects/ospree/
 ---
 
-At the Stanford Smart Sensing Systems (S4) Lab (Winter 2026 onward), I work on embedded firmware for our ocean profilers, improving how sensing stacks run in the field. The project is focused on making a light weight, low-cost solution for measuring conductivity, temperature, and depth (CTD).
+At the Stanford Smart Sensing Systems (S4) Lab (January 2026 onward), I work on embedded firmware for our ocean profilers, improving how sensing stacks run in the field. The project is focused on making a light weight, low-cost solution for measuring conductivity, temperature, and depth (CTD). The profiler drops to about 1 km deep, sampling conductivity, temperature, and salinity on the way.
 
-I built a demo system that highlights sensor capability over low-power LoRa so we can show what the platform does without a full deployment. This demo was accepted to ACM MobiSys 2026 (yahoo!), a leading conference in mobile and wireless systems.
+I built a demo system that highlights sensor capability over low-power LoRa so we can show what the platform does without a full deployment. This demo won the Best Demo Award at ACM MobiSys 2026 (yahoo!), a leading conference in mobile and wireless systems.
 
 The demo works like this:
 
@@ -34,6 +34,10 @@ Some fun things that I realized in this process:
     <source src="{{ '/images/ospree-demo.mp4' | relative_url }}" type="video/mp4" />
   </video>
 </div>
+
+## What I'm working on now
+
+These days I write the embedded firmware and design the PCB for our radio module. We're also experimenting with designing our own low-cost pressure sensors.
 
 Besides this, I've been helping with writing the firmware for our new pressure testing board. Here's an example of us pressure testing the entire profiler since we'll need to drop to ~1000 meters in the ocean.
 

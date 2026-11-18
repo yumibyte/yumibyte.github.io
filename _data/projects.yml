@@ -2,12 +2,13 @@
 
 - slug: ospree
   title: Ocean profilers (Stanford S4 Lab)
-  summary: Embedded firmware for ocean profiler research; LoRa demo showcasing sensors; accepted to ACM MobiSys 2026.
+  summary: Embedded firmware and radio module PCB for a low-cost ocean profiler that dives to 1 km; our LoRa demo won Best Demo Award at ACM MobiSys 2026.
   cover: "/images/ospree-front-page.jpg"
   youtube:
   gallery: []
   skills:
     - Embedded firmware
+    - PCB design
     - LoRa
     - Low-power wireless
     - Sensor demos

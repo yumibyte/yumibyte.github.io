@@ -1,10 +1,13 @@
 - company: Cosmic Frontier Labs
-  role: Software Engineering Intern · Oakland, CA · Spring 2026 – Present
+  role: Software Engineering Intern · Oakland, CA · Apr 2026 – Sep 2026
   logo:
     src: "/images/cosmic-frontier.jpg"
     alt: Cosmic Frontier Labs
   bullets:
-    - Developing embedded software systems for next-generation space telescope instrumentation
+    - Wrote all of the Rust firmware drivers for the heaters and RTD temperature sensors on a space telescope thermal test bench
+    - Calibrated the RTDs and implemented PI control and timing/scheduling for the heaters
+    - Designed a PCB for testing the RTDs and built test jigs that simulate heaters and RTDs
+    - Wrote timing software for the fine-steering mirror (FSM) and contributed to general test bench infrastructure
 
 - company: Blue Origin
   role: Software Test Avionics Intern · Seattle, WA · Summer 2025

@@ -17,7 +17,7 @@
     - Wrote timing software for the fine-steering mirror (FSM) and contributed to general test bench infrastructure
 
 - company: Blue Origin
-  role: Software Test Avionics Intern · Seattle, WA · Summer 2025
+  role: Software Test Avionics Intern · Seattle, WA · Jun 2025 – Sep 2025
   logo:
     src: "/images/blue-origin.png"
     alt: Blue Origin
@@ -27,7 +27,7 @@
     - Resolved integration issues with embedded tools (e.g., JLink, GDB) and guided developers in tool usage
 
 - company: Vast Space
-  role: Ground Station Software Intern · Long Beach, CA · Summer 2024
+  role: Ground Station Software Intern · Long Beach, CA · Jun 2024 – Sep 2024
   logo:
     src: "/images/vast.png"
     alt: Vast
@@ -37,7 +37,7 @@
     - Coordinated team code via GitHub, delivering a UI and API solution to clients through CI/CD
 
 - company: NASA Ames Research Center
-  role: Deep Learning Intern — Kepler/TESS transit classification · Virtual · Fall 2023 – Spring 2024
+  role: Deep Learning Intern — Kepler/TESS transit classification · Virtual · Sep 2023 – May 2024
   logo:
     src: "/images/nasa.jpg"
     alt: NASA
@@ -46,7 +46,7 @@
     - Designed a new pipeline for interpreting XML data to analyze approximately 500,000 new records for exoplanets
 
 - company: Stanford Space Rendezvous Laboratory
-  role: Researcher · Stanford, CA · Summer 2023
+  role: Researcher · Stanford, CA · Jun 2023 – Aug 2023
   logo:
     src: "/images/slab.png"
     alt: Stanford SLAB

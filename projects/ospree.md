@@ -26,7 +26,7 @@ For this I set up:
 
 Some fun things that I realized in this process:
 - Lots of small things about wiring up protoboards cleanly
-- Learned that some motor drivers (e.g. A4988T) are incredibly loud compared to others!! Using a LTC2226 makes the motors practically silent in our demo which is a huge win since they have modes such as StealthChop. I realize this is how things like 3D printers are much more silent and makes me wish I can go back to my "zen sand plotter" project on my page which wasn't so "zen" because the steppers were incredibly loud. This doesn't even require changing the actual motor we're using
+- Learned that some motor drivers (e.g. A4988) are incredibly loud compared to others!! Using a TMC2226 makes the motors practically silent in our demo which is a huge win since they have modes such as StealthChop. I realize this is how things like 3D printers are much more silent and makes me wish I can go back to my "zen sand plotter" project on my page which wasn't so "zen" because the steppers were incredibly loud. This doesn't even require changing the actual motor we're using
 - It's fun to make essentially a large fishtank
 
 <div class="project-inline-video">

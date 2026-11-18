@@ -1,5 +1,8 @@
 - company: Clubhouse for Hardware Innovation Projects (CHIP), Stanford University
   role: Course Assistant (20 hrs/week) · Stanford, CA · Jun 2026 – Present
+  logo:
+    src: "/images/chip.png"
+    alt: Clubhouse for Hardware Innovation Projects
   bullets:
     - Train and advise students from 12 engineering clubs (drones, rockets, electric vehicles) on fabrication and electronics equipment, including laser cutting, vinyl printing and cutting, and 3D printing
     - Wrote the space's battery safety, electrical safety, and 3D printing guides
